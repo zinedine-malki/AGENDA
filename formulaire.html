@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<hmtl lang="fr">
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="agenda.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    </head>
+    <body class="partie2">
+        <header>
+            <section class="header2">
+                <h1 class="titre2">FORMULAIRE D'AJOUT A L'AGENDA !</h1>
+            </section>
+        </header>
+        <main>
+            <section class="tout">
+                <form action="#" method="post">
+                    <section class="tableau2">
+                        <img src="contact-form.png" alt="Logo du formulaire">
+                        <div class="A">
+                            <label for="Titre">
+                                Titre 
+                                <input id="Titre" name="Titre" type="text" required>
+                              </label> 
+                        </div>
+                        <div class="A">
+                            <label for="catégorie-select">Choisir la catégorie</label>
+                            <select name="catégorie" id="catégorie-select">
+                                <option value="Urgent">Urgent</option>
+                                <option value="Important">Important</option>
+                                <option value="Importantautrejour">Important mais peut être fait un autre jour</option>
+                                <option value="Repas">Repas</option>
+
+                            </select>
+                            
+                        </div>
+                        <div class="A">
+                            <label for="Description">
+                                Description
+                                <input id="Description" name="Description" type="text" style="margin: 0px; width: 200px; height: 40px;" required>
+                              </label> 
+                        </div>
+                        <div class="A">
+                            <label for="Date">Veuillez choisir la date :</label>
+                            <input type="date" id="part" name="part" min="2020-10-26" max="2020-11-1" required>
+                        </div>
+                        <div class="A">
+                            <label for="appt">Choisir l'heure : </label>
+                            <input type="time" id="appt" name="appt" min="08:30" max="20:00" required>
+                            <small>Entre 8h30 et 20h</small>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Ajouter à l'agenda</button>
+                        </div>
+                    </section>  
+                </form>
+            </section>
+            <footer>
+                <section class="fin2">
+                    <a href="agenda.html" class="col">AGENDA</a>
+                </section>
+            </footer>
+        </body>
+    </hmtl>
+        
+    
+    
+        </main>
+        

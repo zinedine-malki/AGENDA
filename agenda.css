@@ -1,0 +1,185 @@
+/* ARRIERE PLAN , ETC ...*/
+.partie1{
+font-family: 'Grandstander', cursive;
+background-image: url(https://zupimages.net/up/20/44/v7bi.png);
+background-attachment: fixed;
+background-size: cover;
+}
+
+.partie2
+{
+    font-family: 'Grandstander', cursive;
+    background-image: url(https://concours.quebecor.com/concours.quebecor.com/ckfinder/userfiles/images/19024_JQC_ConcoursCarnavaldeQuebec_PageFormulaire_BACKGROUND.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+hr
+{
+margin-top: 30px;
+margin-bottom: 25px;}
+
+.suite
+{
+    
+    width: 100%;
+    height: 120px;}
+
+/* HEADER */
+
+.debut {
+    background-color: black;
+    width: 100%;
+    height: 160px;
+}
+
+.header2 {
+    background-color: rgba(252, 252, 252, 0.466);
+    width: 100%;
+    height: 160px;
+}
+
+.titre2
+{
+display: flex;
+justify-content: center;
+font-family: 'Press Start 2P', cursive;
+font-size: 20px;
+text-shadow: 2px 1px 1px rgb(0, 0, 0);
+color: white;
+padding: 50px;}
+
+
+
+.titre
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.logotitre
+{display: flex;
+justify-content: center;}
+
+
+
+
+/* TABLEAU */
+.CODE
+{
+    border-collapse: collapse;
+}
+table
+{
+    border-collapse: separate;
+}
+td, th 
+{
+    border: 2px solid black;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 15px;
+    font-family: 'Leckerli One', cursive;
+}
+
+.manger
+{background-color: rgba(0, 0, 255, 0.315);
+}
+
+.urgent
+{
+    background-color: rgba(220, 20, 60, 0.664);
+}
+
+.important
+{background-color: rgba(255, 140, 0, 0.658);}
+
+
+.pasurgent
+{background-color: rgba(110, 173, 110, 0.61);}
+
+
+/* FOOTER */
+
+.footer1
+{background-color: black;
+width: 100%;
+height: 160px;}
+
+
+.case
+{display: flex;
+justify-content: center;
+padding: 50px;}
+
+.form
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px white;
+    color: white;
+}
+
+.header2 {
+    background-color: rgba(252, 252, 252, 0.466);
+    width: 100%;
+    height: 160px;
+}
+
+.fin2 {
+    background-color: rgba(252, 252, 252, 0.466);
+    width: 100%;
+    height: 160px;
+}
+.col
+{
+display: flex;
+justify-content: center;
+font-family: 'Press Start 2P', cursive;
+font-size: 25px;
+text-shadow: 2px 1px 1px rgb(0, 0, 0);
+color: white;
+padding: 60px;}
+
+/* Formulaire */
+
+.tableau2
+ {
+    width: 400px;
+    height: 515px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    background: #ffffff80;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.tout
+{display: flex;
+justify-content: center;}
+
+h1{
+    text-align: center;
+}
+
+.A {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
